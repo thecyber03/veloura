@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Grotesk Fonts */
+@font-face {
+  font-family: 'Grotesk';
+  src: url('../fonts/Grotesk-Bold.woff');
+}
+@font-face {
+  font-family: 'SEGO';
+  src: url('../fonts/SEGO.otf');
+}
+@font-face {
+  font-family: 'Melo';
+  src: url('../fonts/Melodrama-light.otf');
+}
+
+/* Poppins Fonts */
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../fonts/Poppins-Light.woff');
+}
+
+@font-face {
+  font-family: "Boska-Light";
+  src: url("../fonts/Boska-Light.woff") format("woff");
+}
+
+body{
+  margin-top: 64px; /* Fixed Nav Reason */
+  font-family: 'Poppins-Light';
+  font-size: 16px;
+}
+/* Hide Scroll bar from Home.jsx Cetogories Div */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+
+
